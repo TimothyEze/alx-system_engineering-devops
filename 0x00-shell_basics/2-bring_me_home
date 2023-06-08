@@ -1,2 +1,2 @@
 #!/bin/bash
-cd $(getent passwd foo | cut -d: -f6)
+USER=foo eval cd ~$USER
