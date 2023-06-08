@@ -1,2 +1,2 @@
 #!/bin/bash
-USER=foo eval cd ~$USER
+USER=foo eval cd ~USER
